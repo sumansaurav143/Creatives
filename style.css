@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.center{
+    display: flex;
+    height: 98%;
+    width: 97%;
+    background-color: white;
+    border-radius: 5px;
+}
+.Left-Drawer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 1000px;
+    overflow-y: hidden;
+}
+.Right-Drawer{
+    display: non;
+    height: 100%;
+    width: 500px;
+    border-left: 3px solid black;
+}
+
+#Text1,#Text2,#Text3{
+    margin-bottom: 3px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Color-Title{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.color{
+    height: 145px;
+    width: 50%;
+}
+.title{
+    height: 145px;
+    width: 50%;
+}
+.input-box{
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+}
+.api-colors,.api-colors2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    height: 100px;
+    width: 70%;
+}
+.ColorRound,.ColorRound2{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Range-bar{
+    display: flex;
+}
+.Range{
+    margin-left: 30px;
+    width: 350px;
+}
+.Update-Range{
+    margin-left: 15px;
+}
+.AddBtn{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+}
+.Right-Drawer{
+    box-shadow: 1px 0px 20px black;
+    display: none;
+    flex-direction: column;
+}
+.Drawer-title{
+    margin-left: 30px;
+}
+.drawer{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.Text4{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.drawer-bar{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.input-box1,.input-box2{
+    padding-left: 10px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+}
+.DoneBtn{
+    margin-top: 190px;
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+.Filter-part{
+    height: 320px;
+}
+
+.ColorRound:hover{
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.9);
+}
+
+.colour_sel{
+    border: 4px solid rgba(0, 0, 0, 0.836);
+    height: 30px;
+    width: 30px;
+}
+
+#a-error,#b-error{
+    color: red;
+}
+
+.Creative-Notes{
+    padding-left:20px;
+    overflow-y: auto;
+}
+
+.note_data{
+    width: 300px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Creative</title>
+    <link rel="shortcut icon" href="paint-palette.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="center">
+            <div class="Left-Drawer">
+                <br>
+                <div class="Filter-part">
+                    <h1 id="Text1">Filter By</h1>
+                    <br>
+                    <div>
+                        <div class="Color-Title">
+                            <div class="color">
+                                <h5 id="Text2">Color:</h5>
+                                <div class="api-colors">
+                                </div>
+                            </div>
+                            <div class="title">
+                                <h5 id="Text3">Title / Subtitle:</h5>
+                                <input class="input-box" type="text" onchange="SearchFilter()" placeholder="Title/Subtitle">
+                            </div>
+                        </div>
+                        <div class="Range-bar">
+                            <input class="Range" type="range" min="0" max="5" value="0" disabled>
+                            <div><span class="Update-Range">0</span>/5</div>
+                        </div>
+                        
+                        <br>
+                        <button class="AddBtn" onclick="OpenDrawer()">+ Add Creative</button>
+                    </div>
+                </div>
+                <div class="Creative-Notes">
+
+                </div>
+            </div>
+            <div class="Right-Drawer">
+                <div class="drawer-bar">
+                    <h2 class="Drawer-title">Creative Creation</h2>
+                    <button class="close" onclick="CloseDrawer()" type="button">X</button>
+                </div>
+
+                <div class="drawer">
+                    <label class="Text4">Title</label>
+                    <input class="input-box1" placeholder="Title">
+                    <p id="a-error"></p>
+                    <br>
+                    <label class="Text4">Subtitle</label>
+                    <input class="input-box2" placeholder="Subtitle">
+                    <p id="b-error"></p>
+                </div>
+                <br>
+                <br>
+                <div class="color">
+                    <h5 id="Text2">Choose Background Color:</h5>
+                    <div class="api-colors2">
+                        
+                    </div>
+                </div>
+                <button class="DoneBtn" onclick="DoneDrawer()">Done</button>
+            </div>
+        </div>
+        <script src="creatives.js"></script>
+</body>
+
+</html>
